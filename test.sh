@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-result=$(./hello.sh)
+result=$(bash ./hello.sh)
 
 if [ "${result}" == "Hello World" ];then
   echo "Success";
