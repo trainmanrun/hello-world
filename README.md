@@ -1,8 +1,10 @@
 # hello-world
 
-Hello! This is me trying to use https://guides.github.com/activities/hello-world/ and test the following:
+Hello! This is me trying to use https://guides.github.com/activities/hello-world/ and learn the following:
 - Branching 
 - Merging 
 - Using Markdowns 
 
-I've now expanded this to add a bash script that says "Hello World" and add support for Travis CI
+I've now expanded this to a "Hello World" (bash) script and added:
+- Tests
+- Support for Travis CI
