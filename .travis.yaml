@@ -1,3 +1,5 @@
-language: bash
-
-script: chmod u+x hello.sh
+language: python
+python:
+  - "2.7"
+script: 
+  - python hello.py
