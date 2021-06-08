@@ -1,4 +1,3 @@
-language: generic
-sudo: required
-script:
-- bash hello.sh
+language: bash
+
+script: chmod u+x hello.sh
