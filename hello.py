@@ -4,4 +4,4 @@ def helloWorld():
 
 print(helloWorld())
 
-exit -1
+
