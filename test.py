@@ -1,11 +1,14 @@
 import hello
 
+
 def testHelloWorld():
+    retVal = 1
     if hello.helloWorld() == "Hello World!":
-    	print("Success!");
-        return 0
+        print("Success!")
+        retVal = 0
     else:
         print("Failure!")
-        return 1
+        retval = 1
+    return retVal
 
 testHelloWorld()
