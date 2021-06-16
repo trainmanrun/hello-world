@@ -1,5 +1,5 @@
 import hello
-
+import sys
 
 def testHelloWorld():
     retVal = 1
@@ -9,6 +9,6 @@ def testHelloWorld():
     else:
         print("Failure!")
         retval = 1
-    return retVal
+    sys.exit(retVal)
 
 testHelloWorld()
